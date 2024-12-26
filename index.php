@@ -21,12 +21,17 @@ require_once 'config/init.php';
                 <?php endforeach; ?>
             </div>
             <ul>
-                <li><a href="#home" data-lang-content="nav.home"><?php echo t('nav.home'); ?></a></li>
-                <li><a href="#services" data-lang-content="nav.services"><?php echo t('nav.services'); ?></a></li>
+                <li><a href="#hero" data-lang-content="nav.home"><?php echo t('nav.home'); ?></a></li>
+                <li><a href="#features" data-lang-content="nav.services"><?php echo t('nav.services'); ?></a></li>
                 <li><a href="#pricing" data-lang-content="nav.pricing"><?php echo t('nav.pricing'); ?></a></li>
                 <li><a href="#about" data-lang-content="nav.about"><?php echo t('nav.about'); ?></a></li>
                 <li><a href="#contact" data-lang-content="nav.contact"><?php echo t('nav.contact'); ?></a></li>
             </ul>
+            <button class="hamburger" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 
