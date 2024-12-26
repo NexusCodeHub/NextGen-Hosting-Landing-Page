@@ -45,7 +45,7 @@ Landing-Page/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/NexusCodeHub/Hosting-Landing-Page.git
+git clone https://github.com/NexusCodeHub/NextGen-Hosting-Landing-Page.git
 ```
 
 2. Ensure PHP 7.4 or higher is installed
